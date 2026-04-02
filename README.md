@@ -1,7 +1,7 @@
 # Expense & Budget Visualizer
 
-🔗 **Live Demo:** [santos-42.github.io/CodingCamp-30Mar26-Rio-Santoso](https://santos-42.github.io/CodingCamp-30Mar26-Rio-Santoso/)
-📁 **GitHub:** [Santos-42/CodingCamp-30Mar26-Rio-Santoso](https://github.com/Santos-42/CodingCamp-30Mar26-Rio-Santoso)
+🔗 **Live Demo:** [santos-42.github.io/CodingCamp-30Mar26-RioSantoso](https://santos-42.github.io/CodingCamp-30Mar26-RioSantoso/)
+📁 **GitHub:** [Santos-42/CodingCamp-30Mar26-RioSantoso](https://github.com/Santos-42/CodingCamp-30Mar26-RioSantoso)
 
 ---
 
