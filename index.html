@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense & Budget Visualizer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Expense Tracker</h1>
+      <div id="balance-display">Total: $0.00</div>
+      <button id="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
+    </header>
+
+    <main>
+      <!-- Budget limit -->
+      <section id="budget-section">
+        <label for="budget-limit">Monthly Budget Limit ($)</label>
+        <div id="budget-row">
+          <input id="budget-limit" type="number" min="0.01" step="0.01" placeholder="e.g. 500" />
+          <button id="budget-save">Set</button>
+        </div>
+        <div id="budget-status" aria-live="polite"></div>
+      </section>
+
+      <section id="form-section">
+        <form id="transaction-form">
+          <input id="item-name" type="text" placeholder="Item name" />
+          <input id="item-amount" type="number" min="0.01" step="0.01" placeholder="Amount" />
+          <select id="item-category">
+            <option value="">Select category</option>
+            <option value="Food">Food</option>
+            <option value="Transport">Transport</option>
+            <option value="Fun">Fun</option>
+          </select>
+          <button type="submit">Add</button>
+          <div id="form-errors" aria-live="polite"></div>
+        </form>
+      </section>
+
+      <section id="chart-section">
+        <canvas id="pie-chart" width="300" height="300"></canvas>
+        <div id="chart-placeholder">No transactions yet</div>
+      </section>
+
+      <section id="list-section">
+        <ul id="transaction-list"></ul>
+      </section>
+
+      <!-- Monthly summary -->
+      <section id="summary-section">
+        <h2>Monthly Summary</h2>
+        <div id="month-nav">
+          <button id="prev-month" aria-label="Previous month">&#8249;</button>
+          <span id="month-label"></span>
+          <button id="next-month" aria-label="Next month">&#8250;</button>
+        </div>
+        <div id="monthly-summary"></div>
+      </section>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
