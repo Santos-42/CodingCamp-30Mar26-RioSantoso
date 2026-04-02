@@ -1,6 +1,6 @@
 # Expense & Budget Visualizer
 
-🔗 **Live Demo:** [demo.com](https://demo.com)
+🔗 **Live Demo:** [santos-42.github.io/CodingCamp-30Mar26-Rio-Santoso](https://santos-42.github.io/CodingCamp-30Mar26-Rio-Santoso/)
 📁 **GitHub:** [Santos-42/CodingCamp-30Mar26-Rio-Santoso](https://github.com/Santos-42/CodingCamp-30Mar26-Rio-Santoso)
 
 ---
